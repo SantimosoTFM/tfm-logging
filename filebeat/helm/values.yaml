@@ -119,11 +119,11 @@ nodeSelector: {}
 
 annotations: {}
 
-tolerations: []
-#  - key: "apps"
-#    operator: "Equal"
-#    value: "true"
-#    effect: "NoSchedule"
+tolerations:  
+  - key: "apps"
+    operator: "Equal"
+    value: "true"
+    effect: "NoSchedule"
 
 affinity: {}
 
